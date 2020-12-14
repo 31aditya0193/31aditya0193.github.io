@@ -1080,10 +1080,10 @@
 	--txt: var(--color_15);
 	--alpha-txt: 1;
 	--brdh: var(--color_22);
-	--txth: var(--color_18);
+	--txth: var(--color_5);
 	--alpha-txth: 1;
 	--brds: var(--color_22);
-	--txts: var(--color_18);
+	--txts: var(--color_5);
 	--alpha-txts: 1;
 	--boxShadowToggleOn-shd: none;
 	--alpha-bgDrop: 1;
@@ -1557,7 +1557,7 @@
 [data-mesh-id=comp-kgqm9y3oinlineContent-gridContainer]>[id="comp-kgqmj4q7"] {
 	position: relative;
 	margin: 0px 0px 41px 0;
-	left: 205px;
+	left: 50px;
 	grid-area: 9 / 1 / 10 / 2;
 	justify-self: start;
 	align-self: start
@@ -2639,7 +2639,7 @@
 
 #comp-k23d7193 {
 	/* --bg-overlay-color: #0E2C40; */
-	--bg-overlay-color: #148D8D;
+	--bg-overlay-color: #101820FF;
 	width: 100%;
 	--column-width: 980px;
 	--column-flex: 980
