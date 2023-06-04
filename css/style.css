@@ -35,7 +35,7 @@ ul {
 }
 
 a {
-    color: #6d56c1;
+    color: #434D47;
     transition: all .3s;
     position: relative;
     text-decoration: none;
@@ -45,7 +45,7 @@ a {
 a:focus,
 a:hover,
 a a:active {
-    color: #6d56c1;
+    color: #434D47;
     text-decoration: underline
 }
 
@@ -79,7 +79,6 @@ nav ul li a:after {
     right: 42px;
     opacity: 0;
     transition: background .3s;
-    background: #6d56c1
 }
 
 nav ul li a:hover {
@@ -104,7 +103,7 @@ input[type=button] {
 /* || ---------- PROFILE ---------- */
 
 .personal-profile {
-    color: #fff;
+    color: #DCD4CD;
     font-family: Roboto Mono, monospace;
     padding-top: 90px
 }
@@ -147,7 +146,7 @@ input[type=button] {
     font-size: 35px;
     margin-right: 15px;
     opacity: .4;
-    color: #fff!important
+    color: #DCD4CD!important
 }
 
 .personal-profile .personal-profile__social a:hover {
@@ -163,8 +162,9 @@ input[type=button] {
     background-position: 50%;
     background-size: cover;
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     background-position-y: 0%;
+    border-radius: 20px;
 }
 
 .main-header:before {
@@ -198,7 +198,7 @@ input[type=button] {
 }
 
 .contact-list dd a {
-    color: #fff
+    color: #DCD4CD
 }
 
 .contact-list.contact-list__opacity-titles dt {
@@ -217,18 +217,20 @@ input[type=button] {
     margin-bottom: 40px;
     font-size: 36px;
     line-height: 42px;
+    color: #DCD4CD;
     font-family: Roboto Mono, monospace
 }
 
 .section .section__description {
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    color: #DCD4CD;
 }
 
 
 /* || ---------- DOWNLOAD BUTTON ---------- */
 
 .site-btn {
-    background-color: #6d56c1;
+    background-color: #935DEA;
     height: 50px;
     border-radius: 25px;
     font-size: 14px;
@@ -238,7 +240,7 @@ input[type=button] {
     min-width: 170px;
     text-align: center;
     display: inline-block;
-    color: #fff!important;
+    color: #DCD4CD!important;
     font-weight: 600;
     overflow: hidden
 }
@@ -251,7 +253,7 @@ input[type=button] {
 
 .site-btn:focus,
 .site-btn:hover {
-    background-color: #7b67c7;
+    background-color: #B689FF;
     text-decoration: none
 }
 
@@ -263,15 +265,13 @@ input[type=button] {
 }
 
 .site-btn.site-btn--form:hover {
-    background-color: #7b67c7!important
+    background-color: #434D47!important
 }
 
 .site-btn.site-btn--form:active,
 .site-btn.site-btn--form:focus {
     box-shadow: none!important
 }
-
-
 
 /* || ---------- BIG MENU ---------- */
 
@@ -289,7 +289,7 @@ input[type=button] {
 .menu .menu__wrapper {
     z-index: 1;
     margin-top: 50px;
-    transition: all .3s
+    transition: all .3s;
 }
 
 .menu .menu__wrapper nav {
@@ -301,20 +301,20 @@ input[type=button] {
 }
 
 .menu .menu__wrapper nav a {
-    color: #fff;
+    color: #DCD4CD;
     opacity: 1
 }
 
 .menu .menu__wrapper nav a:hover {
-    opacity: .5
+    opacity: .5;
 }
 
 .menu .menu__wrapper nav a:after {
-    background: #fff
+    background: #DCD4CD
 }
 
 .menu .menu__mobile-button {
-    color: #fff;
+    color: #DCD4CD;
     opacity: .5;
     transition: all .3s;
     background-color: transparent;
@@ -328,7 +328,7 @@ input[type=button] {
 }
 
 .menu.menu--active {
-    background-color: #fff;
+    background-color: #DCD4CD;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .14)
 }
 
@@ -337,20 +337,20 @@ input[type=button] {
 }
 
 .menu.menu--active .menu__wrapper a {
-    color: #555!important;
+    color: #DCD4CD!important;
     opacity: 1
 }
 
 .menu.menu--active .menu__wrapper a:hover {
-    color: #6d56c1!important
+    color: #434D47!important
 }
 
 .menu.menu--active .menu__wrapper a:after {
-    background: #6d56c1!important
+    background: #434D47!important
 }
 
 .menu.menu--active .menu__mobile-button {
-    color: #555!important;
+    color: #f00000!important;
     opacity: .9;
     margin-top: -5px;
     transition: all .3s;
@@ -359,7 +359,7 @@ input[type=button] {
 }
 
 .menu.menu--active .menu__mobile-button:hover {
-    color: #6d56c1!important;
+    color: #434D47!important;
     opacity: 1
 }
 
@@ -427,7 +427,7 @@ input[type=button] {
 }
 
 .mobile-menu .mobile-menu__wrapper ul li a {
-    color: #fff;
+    color: #DCD4CD;
     display: inline-block;
     padding: 11px;
     position: relative
@@ -439,13 +439,13 @@ input[type=button] {
 }
 
 .mobile-menu .mobile-menu__wrapper ul li a:after {
-    background: #fff;
+    background: #DCD4CD;
     bottom: 14px;
     right: 1px
 }
 
 .mobile-menu .mobile-menu__close {
-    color: #fff;
+    color: #DCD4CD;
     transition: all .3s;
     position: absolute;
     top: 50px;
@@ -466,38 +466,32 @@ input[type=button] {
     display: inline-block;
     font-size: 14px;
     line-height: 20px;
-    background-color: #fff;
+    background-color: #313834;
     box-shadow: 0 1px 4px rgba(0, 0, 0, .14);
     padding: 5px 10px;
     margin-right: 10px;
-    border-radius: 3px
+    border-radius: 10px
 }
 
 .project-card {
-    margin-left: 0;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     transition: box-shadow .3s;
-    margin-right: 0
+    margin-right: 0;
+    color: #DCD4CD;
 }
-
-.project-card .project-card__img {
-    padding-right: 0;
-    padding-left: 0;
-    /* padding-top: 0;
-    padding-bottom: 0; */
-}
-
 
 .project-card .project-card__img img {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
-    object-fit: cover
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 .project-card .project-card__info {
-    border: 1px solid #f1f1f1;
-    padding: 50px 50px 40px 30px
+    border: 1px solid #434D47;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
 }
 
 .project-card .project-card__title {
@@ -506,7 +500,7 @@ input[type=button] {
     font-family: Roboto Mono, monospace;
     /* text-transform: uppercase; */
     margin-bottom: 15px;
-    font-weight: 700
+
 }
 
 .project-card .project-card__description {
@@ -547,17 +541,17 @@ input[type=button] {
 
 .resume-list .resume-list_title {
     font-family: Roboto Mono, monospace;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-weight: 700;
-    color: #999;
+    font-weight: bolder;
+    color: #DCD4CD;
     margin-bottom: 40px
 }
 
 .resume-list .resume-list__block {
-    border-left: 2px solid #6d56c1;
+    border-left: 2px solid #935DEA;
     padding-left: 25px;
     padding-bottom: 50px
 }
@@ -569,7 +563,7 @@ input[type=button] {
 .resume-list .resume-list__block:before {
     width: 12px;
     height: 12px;
-    border: 2px solid #6d56c1;
+    border: 2px solid #935DEA;
     position: absolute;
     content: "";
     border-radius: 50%;
@@ -583,7 +577,7 @@ input[type=button] {
 
 .resume-list .resume-list__block-title {
     text-transform: uppercase;
-    color: #6d56c1;
+    color: #935DEA;
     font-size: 14px;
     line-height: 20px;
     font-family: Roboto Mono, monospace;
@@ -599,17 +593,21 @@ input[type=button] {
     padding-bottom: 10px
 }
 
+.resume-list .resume-list__block {
+    color: #DCD4CD;
+}
+
 
 /* || ---------- MAIN BACKGROUND ---------- */
 
 .background {
-    background-color: #6d56c1;
+    background-color: #DCD4CD;
     height: 100%;
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
     position: relative;
-    color: #fff
+    color: #DCD4CD
 }
 
 .background:before {
@@ -626,10 +624,15 @@ input[type=button] {
 
 /* || ---------- FOOTER ---------- */
 
+.footer-bottom-section {
+    background-color: #313834;
+    border-radius: 20px;
+}
+
 .footer {
-    font-size: 20px;
-    color: #fff;
-    opacity: .4;
+    font-size: 30px;
+    color: #DCD4CD;
+    opacity: 0.8;
     width: 100%;
     text-align: center;
     position: relative;
@@ -637,9 +640,10 @@ input[type=button] {
 
 .footer .personal-profile__social a {
     font-size: 35px;
-    margin-right: 15px;
-    opacity: .4;
-    color: #fff!important
+    margin-right: 10px;
+    padding-left: 5px;
+    opacity: .6;
+    color: #DCD4CD!important
 }
 
 .footer .personal-profile__social a:hover {
@@ -717,7 +721,7 @@ input[type=button] {
 }
 
 .portfolio-menu .portfolio-menu__link--active {
-    color: #6d56c1;
+    color: #434D47;
     text-decoration: none
 }
 
