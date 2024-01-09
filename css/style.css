@@ -530,6 +530,9 @@ input[type=button] {
     box-shadow: 0 1px 31px rgba(0, 0, 0, .09);
     cursor: pointer
 }
+.project-card__title {
+    color: #935DEA;
+}
 
 
 /* || ---------- RESUME LIST ---------- */
